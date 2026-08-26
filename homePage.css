@@ -48,7 +48,44 @@ em {
 }
 
 .headerBtn:hover {
-    background-color : #dcd5d5;
+    background-color : #bcbbbb;
     transition: background-color 0.3 ease, transform 0.3s ease;
+}
+
+.servicesHeader {
+    margin-top: 74px;
+}
+
+#Services {
+    display: flex;
+    gap: 20px;
+    max-width: 90vw;
+    margin-top: 20px;
+}
+
+.servicesHeader {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.dynamic, .static {
+    border: 2px solid #FFFF;
+    border-radius: 4px;
+}
+
+.staticHeader, .staticPara, .dynamicHeader, .dynamicPara {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.dynamicHeader, .staticHeader {
+    font-size: 28px;
+}
+
+.staticPara, .dynamicPara {
+    font-size: 18px;
 }
 
