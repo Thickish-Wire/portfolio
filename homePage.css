@@ -1,0 +1,54 @@
+* {
+    font-family: "IBM Plex serif", serif;
+    color: #FFFF;
+}
+
+body {
+    background-color: royalblue;
+    max-width: 800px; 
+    width: 90%;       
+    margin: 0 auto; 
+}
+
+h1 {
+    font-size: 52px;
+    font-weight: 900;
+    font-style: bold;
+    margin-bottom: 0px;
+}
+
+.headerLink, ul, a {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 22px;
+    text-decoration: none;
+}
+
+.headerLink, a:hover {
+    color: #dcd5d5;
+}
+
+.paraHeader {
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+em {
+    font-weight: bold;
+}
+
+.headerBtn {
+    background-color: royalblue;
+    color:#FFFF;
+    border: 2.5px solid #FFFF;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.headerBtn:hover {
+    background-color : #dcd5d5;
+    transition: background-color 0.3 ease, transform 0.3s ease;
+}
+
