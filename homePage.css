@@ -10,6 +10,10 @@ body {
     margin: 0 auto; 
 }
 
+i {
+    text-shadow: -1px 2px rgb(44, 42, 42);
+}
+
 h1 {
     font-size: 52px;
     font-weight: 900;
@@ -52,9 +56,12 @@ em {
     transition: background-color 0.3 ease, transform 0.3s ease;
 }
 
-.servicesHeader {
-    margin-top: 74px;
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+
 
 #Services {
     display: flex;
@@ -72,6 +79,7 @@ em {
 .dynamic, .static {
     border: 2px solid #FFFF;
     border-radius: 4px;
+    text-shadow: -1px 2px rgb(69, 67, 67);
 }
 
 .staticHeader, .staticPara, .dynamicHeader, .dynamicPara {
