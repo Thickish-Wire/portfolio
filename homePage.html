@@ -41,20 +41,20 @@
             <p class="dynamicPara">Building Powerful, database-driven web applications tailored to handle user data, content management, and custom business logic.</p>
         </div>
     </section>
-    
-    <h2>Get in Touch</h2>
-    <section id="contact">
-        <form action="">
-            <label>Your name:</label> <br>
-            <input type="text" name="name" placeholder="your Name" class="contactInput" required> <br>
-            <label>Email: </label> <br>
-            <input type="email" name="email" class="contactInput"  placeholder="your email" required> <br>
-            <label>Message: </label> <br>
-            <textarea name="message" placeholder="your message" class="contactInput" required></textarea> <br>
-            <br>
-            <button type="submit">Submit</button> 
-        </form> 
 
-    </section>
+    <hr>
+    
+    <div class="contactContainer">
+        <h2  class="contactTitle">Get in Touch</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+            <input type="hidden" name="access_key" value="532fa0e9-26be-4e67-801d-64b2e6b0b712">
+            <input type="text" name="name" placeholder="your Name" class="contactInputs" required>
+            <input type="email" name="email" placeholder="your Email" class="contactInputs" required>
+            <textarea name="message" placeholder="Your Message" class="contactInputs" required></textarea>
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </div>
+            
+
 </body>
 </html>

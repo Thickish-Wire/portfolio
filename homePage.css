@@ -43,8 +43,8 @@ em {
     font-weight: bold;
 }
 
-.headerBtn {
-    background-color: royalblue;
+.headerBtn, .submit {
+    background-color: #4169E1;
     color:#FFFF;
     border: 2.5px solid #FFFF;
     border-radius: 4px;
@@ -57,20 +57,22 @@ em {
 }
 
 hr {
+    max-width: 90vh;
+    border-radius: 10px;  
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-
 
 #Services {
     display: flex;
     gap: 20px;
     max-width: 90vw;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.servicesHeader {
+.servicesHeader, .contactTitle {
+    font-weight: 500;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -78,7 +80,7 @@ hr {
 
 .dynamic, .static {
     border: 2px solid #FFFF;
-    border-radius: 4px;
+    border-radius: 10px;
     text-shadow: -1px 2px rgb(69, 67, 67);
 }
 
@@ -97,3 +99,37 @@ hr {
     font-size: 18px;
 }
 
+.contactContainer {
+    height: 60vh;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contactInputs {
+    height: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    padding: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+}
+
+.contactInputs::placeholder {
+    color: #a9a9a9;
+}
+
+.contactInputs:focus {
+    border: 2px solid #162e76;
+}
+
+.contactInputs textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
