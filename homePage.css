@@ -19,6 +19,7 @@ h1 {
     font-weight: 900;
     font-style: bold;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .headerLink, ul, a {
@@ -37,6 +38,7 @@ h1 {
 .paraHeader {
     font-size: 20px;
     margin-top: 4px;
+    margin-bottom: 0px;
 }
 
 em {
@@ -51,6 +53,10 @@ em {
     font-size: 20px;
 }
 
+.headerBtn {
+    margin-top: 35px;
+}
+
 .headerBtn:hover {
     background-color : #bcbbbb;
     transition: background-color 0.3 ease, transform 0.3s ease;
@@ -63,13 +69,28 @@ hr {
     margin-bottom: 50px;
 }
 
-#Services {
+.service {
     display: flex;
+    justify-content: space-evenly;
     gap: 20px;
-    max-width: 90vw;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
+
+.webDev h3{
+    /* text-shadow: -1px 2px rgb(69, 67, 67); */
+}
+
+.servicePara {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.servicesHeader {
+    margin-top: 0px;
+}
+
 
 .servicesHeader, .contactTitle {
     font-weight: 500;
@@ -78,26 +99,6 @@ hr {
     justify-content: center;
 }
 
-.dynamic, .static {
-    border: 2px solid #FFFF;
-    border-radius: 10px;
-    text-shadow: -1px 2px rgb(69, 67, 67);
-}
-
-.staticHeader, .staticPara, .dynamicHeader, .dynamicPara {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-}
-
-.dynamicHeader, .staticHeader {
-    font-size: 28px;
-}
-
-.staticPara, .dynamicPara {
-    font-size: 18px;
-}
 
 .contactContainer {
     height: 60vh;
