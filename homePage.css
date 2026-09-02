@@ -1,10 +1,7 @@
-* {
-    font-family: "IBM Plex serif", serif;
-}
-
 body {
+    font-family: "IBM Plex serif", serif;
     background-color: rgb(245, 247, 250);
-    max-width: 80vw;
+    max-width: 70vw;
     width: 90%;       
     margin: 0 auto; 
     color: rgb(245, 247, 250);
@@ -85,6 +82,14 @@ h1 {
     margin: 0px;
     text-align: center;
     grid-column: 1 / -1;
+}
+
+.serviceHeader {
+    font-size: 48px;
+}
+
+.servicePara {
+    font-size: 16px;
 }
 
 .webDev, .webDesign, .webMaintenance {
