@@ -1,108 +1,114 @@
 * {
     font-family: "IBM Plex serif", serif;
-    color: #FFFF;
 }
 
 body {
-    background-color: royalblue;
-    max-width: 800px; 
+    background-color: rgb(245, 247, 250);
+    max-width: 80vw;
     width: 90%;       
     margin: 0 auto; 
+    color: rgb(245, 247, 250);
 }
 
 i {
-    text-shadow: -1px 2px rgb(44, 42, 42);
+    text-shadow: -3px 5px 5.8px rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 h1 {
-    font-size: 52px;
-    font-weight: 900;
+    font-size: 48px;
     font-style: bold;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
+#header {
+    background-color: #100A71;
+    padding: 40px;
+    border-radius: 4px;
+}
+
 .headerLink, ul, a {
     font-size: 18px;
+    color: rgb(245, 247, 250);
     display: flex;
     justify-content: flex-end;
     list-style: none;
     gap: 22px;
     text-decoration: none;
+    margin: 0;
 }
 
 .headerLink, a:hover {
-    color: #dcd5d5;
+    filter: brightness(0.9);
 }
 
 .paraHeader {
-    font-size: 20px;
-    margin-top: 4px;
-    margin-bottom: 0px;
+    font-size: 16px;
+    margin: 0px;
 }
 
-em {
-    font-weight: bold;
-}
+
 
 .headerBtn, .submit {
-    background-color: #4169E1;
-    color:#FFFF;
-    border: 2.5px solid #FFFF;
-    border-radius: 4px;
+    background-color: rgb(255, 194, 53);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .headerBtn {
-    margin-top: 35px;
+    margin-top: 18px;
+    padding: 6px;
 }
 
 .headerBtn:hover {
-    background-color : #bcbbbb;
-    transition: background-color 0.3 ease, transform 0.3s ease;
+   filter: brightness(0.9);
+   transition: background-color 0.3 ease, transform 0.3s ease;
 }
 
-hr {
-    max-width: 90vh;
-    border-radius: 10px;  
-    margin-top: 50px;
-    margin-bottom: 50px;
+/* Service Section */
+.services { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 30px;
+    background-color: #100A71;
+    border-radius: 4px;
+    padding: 15px;
 }
 
-.service {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
+.serviceHeader, .servicePara {
+    margin: 0px;
+    text-align: center;
+    grid-column: 1 / -1;
 }
 
-.webDev h3{
-    /* text-shadow: -1px 2px rgb(69, 67, 67); */
+.webDev, .webDesign, .webMaintenance {
+    background-color: rgb(245, 247, 250);
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    padding: auto;
 }
 
-.servicePara {
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.webDev, .webDesign, .webMaintenance{
+    margin-top: 20px;
 }
 
-.servicesHeader {
-    margin-top: 0px;
+.contentHeader{
+    font-weight: bold;
+    font-size: 20px;
 }
 
-
-.servicesHeader, .contactTitle {
-    font-weight: 500;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
+.contentPara {
+    font-size: 20px;
 }
 
-
-.contactContainer {
-    height: 60vh;
-}
 .contact {
     display: flex;
     flex-direction: column;
