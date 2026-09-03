@@ -13,12 +13,12 @@
 
 <body>
     <header id="header">
-        <nav class="headerLink">
-            <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Project</a></li>
-                <li><a href="">Contact</a></li>
+        <nav>
+            <ul class="linkList">
+                <li><a href="" class="navLink">home</a></li>
+                <li><a href="" class="navLink">About</a></li>
+                <li><a href="" class="navLink">Project</a></li>
+                <li><a href="" class="navLink">Contact</a></li>
             </ul>
         </nav>
 
@@ -51,16 +51,21 @@
     </section>
 
     <section class="project">
-
+        <h2 class="projectTitle">Projects</h2>
+       <a href="" class="projectLink">More Projects <i class="fa-solid fa-arrow-right"></i></a>
     </section>
+
     <div class="contactContainer">
-        <h2  class="contactTitle">Get in Touch</h2>
+        <h2  class="contactTitle">Contact</h2>
         <form action="https://api.web3forms.com/submit" method="POST" class="contact">
             <input type="hidden" name="access_key" value="532fa0e9-26be-4e67-801d-64b2e6b0b712">
+            <label class="contactTxt">Name:</label>
             <input type="text" name="name" placeholder="your Name" class="contactInputs" required>
+            <label class="contactTxt">Email:</label>
             <input type="email" name="email" placeholder="your Email" class="contactInputs" required>
+            <label class="contactTxt">Message:</label>
             <textarea name="message" placeholder="Your Message" class="contactInputs" required></textarea>
-            <button type="submit" class="submit">Submit</button>
+            <button type="submit" class="submit">Contact Me</button>
         </form>
     </div>
             

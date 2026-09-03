@@ -25,15 +25,15 @@ h1 {
     border-radius: 4px;
 }
 
-.headerLink, ul, a {
+.linkList, .navLink{
     font-size: 18px;
     color: rgb(245, 247, 250);
+    list-style: none;
+    text-decoration: none;
     display: flex;
     justify-content: flex-end;
-    list-style: none;
-    gap: 22px;
-    text-decoration: none;
     margin: 0;
+    gap: 20px;
 }
 
 .headerLink, a:hover {
@@ -45,9 +45,7 @@ h1 {
     margin: 0px;
 }
 
-
-
-.headerBtn, .submit {
+.headerBtn {
     background-color: rgb(255, 194, 53);
     color: rgb(0, 0, 0);
     border: none;
@@ -105,25 +103,72 @@ h1 {
     margin-top: 20px;
 }
 
-.contentHeader{
-    font-weight: bold;
-    font-size: 20px;
+
+/* Project Section */
+
+.project{
+    border-radius: 4px;
+    margin-top: 30px;
+    background-color: #100A71;   
 }
 
-.contentPara {
-    font-size: 20px;
+.projectTitle {
+    font-size: 48px;
+    text-align: center;
+    margin: 0px;
 }
+
+.projectLink{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(255, 194, 53);
+}
+
+.projectLink:hover{
+    filter: brightness(0.9);
+}
+
+.fa-arrow-right{
+    padding-top: 6px;
+}
+
+/* Contact Section */
+
+.contactContainer {
+    background-color: #100A71;
+    border-radius: 4px;
+    padding-bottom: 15px;
+     margin-top: 30px;
+}
+
+.contactTitle{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
 
 .contact {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    gap: 20px;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 20px;
 }
 
-.contactInputs {
-    height: auto;
-    width: auto;
+.contact label {
+    width: 289px;
+    text-align: left;
+    margin: 0;
+    display: block;
+}
+
+.contactInputs, .contact textarea {
+    width: 289px;
+    display: block;
+    margin: 0;
     border: none;
     outline: none;
     padding: 25px;
@@ -132,16 +177,23 @@ h1 {
     border-radius: 10px;
 }
 
-.contactInputs::placeholder {
-    color: #a9a9a9;
-}
-
-.contactInputs:focus {
-    border: 2px solid #162e76;
-}
-
-.contactInputs textarea {
-    height: 140px;
+.contact textarea {
+    min-height: 149px;
+    resize: vertical;
     padding-top: 15px;
-    border-radius: 20px;
+}
+
+.submit {
+    font-size: 16px;
+    padding: 6px;
+    background-color: rgb(255, 194, 53);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    filter: brightness(0.9);
+    transition: background-color 0.3 ease, transform 0.3s ease;
 }
