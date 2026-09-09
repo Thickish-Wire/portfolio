@@ -1,0 +1,43 @@
+body {
+    font-family: "IBM Plex serif", serif;
+    max-width: 70vw;
+    width: 90%;       
+    margin: 0 auto; 
+    color: rgb(245, 247, 250);
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+/* Header Section */
+
+#header {
+    background-color: #100A71;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+
+.linkList, .navLink{
+    font-size: 18px;
+    color: rgb(245, 247, 250);
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    gap: 20px;
+}
+
+.headerLink, a:hover {
+    filter: brightness(0.9);
+}
+
+ .highLight {
+    border-bottom: 2px solid rgb(245, 247, 250); 
+}
+
+
+h1 {
+    font-size: 3em;
+    font-style: bold;
+    text-shadow: 0 5px 0 black;
+}
