@@ -1,0 +1,94 @@
+body {
+    font-family: "IBM Plex serif", serif;
+    width: 90%;       
+    margin: 0 auto; 
+    color: rgb(245, 247, 250);
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+nav {
+    padding: 30px;
+}
+
+
+.linkList, .navLink{
+    font-size: 18px;
+    color: rgb(245, 247, 250);
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    gap: 20px;
+}
+ .highLight {
+    border-bottom: 2px solid rgb(245, 247, 250); 
+}
+
+.headerLink, a:hover {
+    filter: brightness(0.9);
+}
+
+.contactContainer {
+    background-color: #100A71;
+    border-radius: 4px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+
+.contactTitle{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 20px;
+}
+
+.contact label {
+    width: 289px;
+    text-align: left;
+    margin: 0;
+    display: block;
+}
+
+.contactInputs, .contact textarea {
+    width: 289px;
+    display: block;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+}
+
+.contact textarea {
+    min-height: 149px;
+    resize: vertical;
+    padding-top: 15px;
+}
+
+.submit {
+    font-size: 16px;
+    padding: 6px;
+    background-color: rgb(255, 194, 53);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    filter: brightness(0.9);
+    transition: background-color 0.3 ease, transform 0.3s ease;
+}

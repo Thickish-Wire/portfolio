@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <div class="contactContainer">
+        <nav>
+            <ul class="linkList">
+                <li><a href="homePage.html" class="navLink">home</a></li>
+                <li><a href="about.html" class="navLink">About</a></li>
+                <li><a href="project.html" class="navLink">Project</a></li>
+                <li><a href="contact.html" class="navLink highLight">Contact</a></li>
+            </ul>
+        </nav>
+        <h2  class="contactTitle">Lets Talk</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+            <input type="hidden" name="access_key" value="532fa0e9-26be-4e67-801d-64b2e6b0b712">
+            <label class="contactTxt">Name:</label>
+            <input type="text" name="name" placeholder="your Name" class="contactInputs" required>
+            <label class="contactTxt">Email:</label>
+            <input type="email" name="email" placeholder="your Email" class="contactInputs" required>
+            <label class="contactTxt">Message:</label>
+            <textarea name="message" placeholder="Your Message" class="contactInputs" required></textarea>
+            <button type="submit" class="submit">Contact Me</button>
+        </form>
+    </div>
+</body>
+</html>
