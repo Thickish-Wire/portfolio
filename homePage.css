@@ -45,7 +45,7 @@ h1 {
     margin: 0px;
 }
 
-.headerBtn {
+.contactBtn {
     background-color: rgb(255, 194, 53);
     color: rgb(0, 0, 0);
     border: none;
@@ -54,14 +54,39 @@ h1 {
     cursor: pointer;
 }
 
-.headerBtn {
+.contactBtn {
     margin-top: 18px;
     padding: 6px;
 }
 
-.headerBtn:hover {
+.contactBtn:hover {
    filter: brightness(0.9);
    transition: background-color 0.3 ease, transform 0.3s ease;
+}
+
+.popup {
+    width: 400px;
+    border-radius: 6px;
+    background-color: #100A71;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 30px 30px;
+    visibility: hidden;
+}
+
+.open-popup{
+    visibility: visible;
+    background: rgba(15, 10, 113, 0.2);
+    backdrop-filter: blur(10px);
+}
+.popup h2 {
+    margin-top: 2em;
+} 
+
+.popup button {
+    margin-top: 30px ;
 }
 
 /* Service Section */
