@@ -13,11 +13,12 @@ body {
     background-color: #100A71;
     padding: 40px;
     border-radius: 4px;
+    border: 0.6em solid rgb(245, 247, 250);
 }
 
 
 .linkList, .navLink{
-    font-size: 18px;
+    font-size: 1.13em;
     color: rgb(245, 247, 250);
     list-style: none;
     text-decoration: none;
@@ -40,4 +41,111 @@ h1 {
     font-size: 3em;
     font-style: bold;
     text-shadow: 0 5px 0 black;
+}
+
+.aboutMe{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin: 16px 0px;
+    gap: 20px;
+}
+
+.contentTitleLeft{
+    max-width: 50vw;
+    background-color: rgb(245, 247, 250);
+    color: black;
+    border-radius: 4px;
+}
+
+.contentTitleLeft h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contentTitleLeft p{
+    font-size: 1.13em;
+}
+
+.contentRight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #100A71;
+    height: 275px;
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: -6px 9px 5.2px  rgba(0, 0, 0, 0.25);
+}
+
+.contentRight {
+    font-size: 1.13em;
+}
+
+
+/* contact section */
+.contactContainer {
+    background-color: #100A71;
+    border-radius: 4px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+
+.contactTitle{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 20px;
+}
+
+.contact label {
+    width: 289px;
+    text-align: left;
+    margin: 0;
+    display: block;
+}
+
+.contactInputs, .contact textarea {
+    width: 289px;
+    display: block;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+}
+
+.contact textarea {
+    min-height: 149px;
+    resize: vertical;
+    padding-top: 15px;
+}
+
+.submit {
+    font-size: 16px;
+    padding: 6px;
+    background-color: rgb(255, 194, 53);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    filter: brightness(0.9);
+    transition: background-color 0.3 ease, transform 0.3s ease;
 }
