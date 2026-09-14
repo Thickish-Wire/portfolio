@@ -66,6 +66,7 @@ h1 {
 
 .contentTitleLeft p{
     font-size: 1.13em;
+    padding: 0px 0.6em;
 }
 
 .contentRight{
@@ -78,6 +79,7 @@ h1 {
     width: 300px;
     border-radius: 4px;
     box-shadow: -6px 9px 5.2px  rgba(0, 0, 0, 0.25);
+    border: 0.6em solid rgb(245, 247, 250);
 }
 
 .contentRight {
@@ -148,4 +150,15 @@ h1 {
 .submit:hover{
     filter: brightness(0.9);
     transition: background-color 0.3 ease, transform 0.3s ease;
+}
+
+/* Socials */
+.socials{
+    background-color: #100A71;
+    border-radius: 4px;
+    display: flex;
+}
+
+.socials h2{
+     
 }
