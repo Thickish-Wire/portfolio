@@ -14,6 +14,7 @@ body {
     padding: 40px;
     border-radius: 4px;
     border: 0.6em solid rgb(245, 247, 250);
+    margin: 30px 0px;
 }
 
 
@@ -156,9 +157,25 @@ h1 {
 .socials{
     background-color: #100A71;
     border-radius: 4px;
-    display: flex;
+    margin: 30px 0px;
 }
 
 .socials h2{
-     
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+.socialsList{
+    color: rgb(245, 247, 250);
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0px;
+    margin: 0;
+
 }
