@@ -1,0 +1,39 @@
+body {
+    font-family: "IBM Plex serif", serif;
+    max-width: 70vw;
+    width: 90%;       
+    margin: 0 auto; 
+    color: rgb(245, 247, 250);
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+
+/* Header */
+
+#header {
+    background-color: #100A71;
+    padding: 40px;
+    border-radius: 4px;
+    margin: 30px 0px;
+    border: 0.6em solid rgb(245, 247, 250);
+}
+
+#header h1 {
+    font-size: 3em;
+    font-style: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+    text-shadow: 0px 5px 0px rgb(0, 0, 0);
+}
+
+.linkList, .navLink{
+    font-size: 1.2em;
+    color: rgb(245, 247, 250);
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    gap: 20px;
+}
+
