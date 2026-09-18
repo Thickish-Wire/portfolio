@@ -94,6 +94,7 @@ h1 {
     border-radius: 4px;
     padding-bottom: 15px;
     margin-top: 30px;
+    border: 0.6em solid rgb(245, 247, 250);
 }
 
 .contactTitle{
@@ -158,6 +159,7 @@ h1 {
     background-color: #100A71;
     border-radius: 4px;
     margin: 30px 0px;
+    border: 0.6em solid rgb(245, 247, 250);
 }
 
 .socials h2{
@@ -165,7 +167,6 @@ h1 {
     font-size: 3em;
     font-weight: bold;
     margin: 0px;
-    margin-bottom: 12px;
 }
 
 .socialsList{
@@ -175,7 +176,7 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding: 20px 0px;
+    padding: 15px 0px;
     margin: 0;
 
 }
