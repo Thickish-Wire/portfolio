@@ -37,3 +37,89 @@ body {
     gap: 20px;
 }
 
+/* Project */
+
+.projectContainer {
+    border: 0.6em solid rgb(245, 247, 250);
+    background-color: #100A71;
+    border-radius: 4px;
+    padding-bottom: 15px;
+    margin: 30px 0px;
+}
+
+.projectContainer h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+
+/* contact */
+
+
+.contactContainer {
+    border: 0.6em solid rgb(245, 247, 250);
+    background-color: #100A71;
+    border-radius: 4px;
+    padding-bottom: 15px;
+    margin: 30px 0px;
+}
+
+.contactTitle{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 20px;
+}
+
+.contact label {
+    width: 289px;
+    text-align: left;
+    margin: 0;
+    display: block;
+}
+
+.contactInputs, .contact textarea {
+    width: 289px;
+    display: block;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+}
+
+.contact textarea {
+    min-height: 149px;
+    resize: vertical;
+    padding-top: 15px;
+}
+
+.submit {
+    font-size: 16px;
+    padding: 6px;
+    background-color: rgb(255, 194, 53);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    filter: brightness(0.9);
+    transition: background-color 0.3 ease, transform 0.3s ease;
+}

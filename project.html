@@ -18,9 +18,31 @@
             </ul>
         </nav>
 
-       <h1>A list of all my work from past to present</h1>
-
-
+       <h1>A list of all my work from <br> past to present</h1>
     </header>
+
+    <section class="projectContainer">
+        <h2>Projects</h2>
+        <div class="card">
+            <img src="portfolio.png" alt="portfoliopage">
+            <div class="overlay">
+                <p>This page was built using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="contactContainer">
+        <h2  class="contactTitle">Lets Talk</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+            <input type="hidden" name="access_key" value="532fa0e9-26be-4e67-801d-64b2e6b0b712">
+            <label class="contactTxt">Name:</label>
+            <input type="text" name="name" placeholder="your Name" class="contactInputs" required>
+            <label class="contactTxt">Email:</label>
+            <input type="email" name="email" placeholder="your Email" class="contactInputs" required>
+            <label class="contactTxt">Message:</label>
+            <textarea name="message" placeholder="Your Message" class="contactInputs" required></textarea>
+            <button type="submit" class="submit">Contact Me</button>
+        </form>
+    </div>
 </body>
 </html>
