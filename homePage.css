@@ -32,7 +32,7 @@ h1 {
 }
 
 .linkList, .navLink{
-    font-size: 18px;
+    font-size: 1.2em;
     color: rgb(245, 247, 250);
     list-style: none;
     text-decoration: none;
@@ -153,6 +153,7 @@ h1 {
 
 .projectLink{
     display: flex;
+    padding-right: 1rem;
     justify-content: flex-end;
     color: rgb(255, 194, 53);
 }
@@ -164,6 +165,45 @@ h1 {
 .fa-arrow-right{
     padding-top: 6px;
 }
+
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+  padding: 1em;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  border-radius: 0.2em;
+  overflow: hidden; 
+}
+
+.imageContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.textContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(217, 217, 217, 0.85);
+  padding: 0.75em;
+}
+
+.textContainer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #000;
+}
+
+
 
 /* Contact Section */
 
