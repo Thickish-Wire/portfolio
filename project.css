@@ -17,6 +17,10 @@ body {
     border: 0.6em solid rgb(245, 247, 250);
 }
 
+ .highLight {
+    border-bottom: 2px solid rgb(245, 247, 250); 
+}
+
 #header h1 {
     font-size: 3em;
     font-style: bold;
@@ -53,6 +57,44 @@ body {
     font-weight: bold;
     margin: 0px;
     margin-bottom: 12px;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+  padding: 1em;
+  max-width: 900px; 
+
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  border-radius: 0.2em;
+  overflow: hidden; 
+}
+
+.imageContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.textContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(217, 217, 217, 0.85);
+  padding: 0.75em;
+}
+
+.textContainer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #000;
 }
 
 
